@@ -13,7 +13,7 @@ You need to provide the font-files in [userfonts](userfonts) on the machine host
 If you use `nginx` as a reverse proxy, as suggested in the [documentation](https://writefreely.org/start), you have to change the default configuration:
 
 Change `location ~ ^/(css|img|js|fonts)/` to  
-`location ~ ^/(css|img|js|fonts|userfonts)/` and copy the `userfont` directory to your `static` directory.  
+`location ~ ^/(css|img|js|fonts|userfonts)/` and copy the `userfonts` directory to your `static` directory.  
 **e.g.:**
 ~~~bash
 cp -r userfonts /var/www/example.com/static
