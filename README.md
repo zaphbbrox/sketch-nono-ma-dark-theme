@@ -1,9 +1,9 @@
-# Sketch.Nono.Ma  
+# Sketch.Nono.Ma - Dark    
 
 A custom theme for WriteFreely blog pages.  
 Original theme: https://write.as/themes/sketch-nono-ma
 
-![image](https://user-images.githubusercontent.com/15841958/221345803-6763bdb1-fa1f-4c1f-a97f-d9c662935b7e.png)
+![image](https://user-images.githubusercontent.com/15841958/221346178-c50c6764-9cbf-440e-a6f2-25a65c62412e.png)
 
 ## Install
 
