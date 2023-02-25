@@ -3,7 +3,7 @@
 A custom theme for WriteFreely blog pages.  
 Original theme: https://write.as/themes/sketch-nono-ma
 
-**IMAGE_PLACEHOLDER**
+![image](https://user-images.githubusercontent.com/15841958/221345705-dd1ec2a0-62dd-47e5-9efe-d2f73e85d687.png)
 
 ## Install
 
