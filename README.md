@@ -1,12 +1,19 @@
 # Sketch.Nono.Ma - Dark    
 
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=for-the-badge)](http://creativecommons.org/publicdomain/zero/1.0/)
+![Code: CSS](https://img.shields.io/badge/code-css-green?style=for-the-badge&logo=css3)
 
-A fork of the Sketch.Nono.Ma theme for WriteFreely blog pages.    
-Original theme: https://write.as/themes/sketch-nono-ma  
+Based on the original theme [**Sketch.Nono.Ma**](https://write.as/themes/sketch-nono-ma).  
 Thanks for this wonderful theme! 
 
-Mainly I changed it to dark mode and use custom fonts.
+## Changes
+
+  - replaced the fonts
+  - changed background-colors
+  - changed color of headlines, links, etc. from `red` to `hotpink`
+  - raised `max-width` for `#post article.norm` to 70%
+  - set `text-decoration` of `body#post article h2#title` to `underline`
+
 
 ## Screenshot 
 
@@ -19,23 +26,18 @@ For all other elements I use the [Iosevka font](https://github.com/be5invis/Iose
 
 ## Install
 
+Clone the repo:  
+
+    git clone https://github.com/zaphbbrox/sketch-nono-ma-dark-theme.git
+
 Copy the content of [write.css](write.css) ~~and [footnotes.js](footnotes.js)~~[^1] into the **Custom CSS** field on the **Customize** page.  
 
-You need to provide the font-files in [userfonts](userfonts) on the machine hosting your blog.
-If you use `nginx` as a reverse proxy, as suggested in the [documentation](https://writefreely.org/start), you have to change the default configuration:
+You need to provide the font-files in [sketch-nono-ma-dark-theme/fonts](fonts) on the machine hosting your blog.  
+Just copy the `fonts` directory to your `static` directory.  
 
-Change 
-~~~bash
-location ~ ^/(css|img|js|fonts)/
-~~~ 
-to
-~~~bash  
-location ~ ^/(css|img|js|fonts|userfonts)/
-~~~ 
-and copy the `userfonts` directory to your `static` directory.  
 **e.g.:**
 ~~~bash
-cp -r userfonts /var/www/example.com/static
+cp sketch-nono-ma-dark-theme/fonts/* /var/www/example.com/static/fonts/
 ~~~
 
 That's it!
